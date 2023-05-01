@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Loaction Tracker</title>
+    <link rel="stylesheet" href="my.css">
+
+    <script>
+        var i = 0;
+        var txt = 'placement portfolio';
+        var speed = 70;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+            
+        }
+    </script>
+
+</head>
+
+<body onload="typeWriter();">
+
+    <!-- nav bar -->
+
+    <div class="top_bar">
+
+        <img src="logo.png" width="50px" height="50px">
+
+        <a href="index.html"><h1 class="text_color" id="demo"></h1></a> 
+
+    </div>
+
+    <br> <br> <br> <br>
+
+    <!-- links -->
+    <div>
+        &nbsp; <a href="login.html" class="text_color">LOGIN</a> &nbsp; &nbsp;
+        <a href="#home" class="text_color">HOME</a> &nbsp; &nbsp;
+        <a href="signup.html" class="text_color">SIGNUP</a>
+    </div>
+
+    <h3>
+    <p style="margin-top:50px; margin-left:30px; margin-right:30px; color:white; text-align: justify;">Lorem, ipsum dolor ...</p></h3>
+
+</body>
+
+</html>
+
+

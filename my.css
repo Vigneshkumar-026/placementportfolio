@@ -1,0 +1,37 @@
+my.css
+html{
+    background-image: url("mi.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text_color{
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text_color:hover{
+    color: greenyellow;
+    transition: 0.5s;
+}
+
+.top_bar *{
+    float: left;
+    display: table-cell;
+}
+
+.top_bar{
+    width: 100%;
+}
+
+.white_only{
+    color: white;
+}

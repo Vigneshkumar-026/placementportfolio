@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>login</title>
+    <link rel="stylesheet" href="/CSS/style.css" type="text/css">
+</head>
+<body>
+   <form action="/auth/login" method="post">
+   <div class="regform">
+    <h3>Log In</h3>
+    {{#if msg}}
+    <p>{{msg}}</p>
+    {{/if}}
+    <form action="/placement portfolio.html">
+    <div class="input">
+        <label class="textlabel" for="name">User Name</label>
+        <input type="text" id="name" name="username" placeholder="User name">
+     </div>
+     <div class="input">
+        <label class="textlabel" for="psw">Password</label>
+        <input type="password" id="psw" name="psw" placeholder="Password">
+     </div>
+     
+     <div class="btn">
+      <a href="/placement portfolio.html"><button type="submit">Submit
+      </button></a>
+
+
+     </div>
+     <div class="btn">
+      <button type="reset">Reset</button>
+   </div>
+
+    </form>
+    
+   </div>
+   </form>
+
+
+
+
+</body>
+</html>

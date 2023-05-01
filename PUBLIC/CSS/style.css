@@ -1,0 +1,67 @@
+body{
+    background: url("amiu.jpeg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 500px;
+    
+}
+.regform{
+    width: 500px;
+    margin: 15% 10% 50% 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 8px 20px 30px ;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    
+}
+.regform h3{
+    color: rgb(38, 194, 173);
+    text-align: center;
+
+}
+.regform .textlabel{
+    display: block;
+}
+.input input{
+    width: 90%;
+    font-size: 1em;
+    border: 1px solid #006D77;
+    box-shadow: 2px;
+    border-radius: 6px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    margin: 5px 0px 10px 15px;
+}
+input:focus{
+    background-color: whitesmoke;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: #02242c;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #006D87;
+}
+.radio input{
+    accent-color: blue;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+.regform .gender{
+    display: flex;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    
+}
+.regform label{
+    margin-left: 12px;;
+}
+
